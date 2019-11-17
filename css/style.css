@@ -159,7 +159,7 @@ section.cook h3 {
    float: left;
 }
 
-.portfoliodiv {
+.portfolio-wrap {
    width: 50%;
    float: left;
    background: #434739;
@@ -168,11 +168,11 @@ section.cook h3 {
    align-items: center;
 }
 
-.portfolio-class {
+.portfolio-item {
    width: 50%;
 }
 
-.portfolio-class img {
+.portfolio-item img {
    width: 100%;
 }
 
@@ -494,4 +494,8 @@ section.review-section {
 
 .social-icon a {
    padding-right: 15px;
+}
+
+.about-item p {
+   font-weight: 700;
 }
