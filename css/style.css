@@ -56,7 +56,7 @@ body {
    font-size: 78.25px;
 }
 
-.herotxt button.btn.btn-default {
+.herotxt .btn.btn-default {
    color: #afc67b;
    background: #5d6942;
    border: 0;
@@ -64,6 +64,11 @@ body {
    opacity: 50%;
    text-transform: uppercase;
    margin-top: 120px;
+}
+
+.btn.btn-default a {
+   text-decoration: none;
+   color: #afc67b;
 }
 
 img.sushiparlourpicture {
@@ -85,8 +90,12 @@ section.cook h3 {
    font-size: 29px;
 
 }
-section.cook {
+.cook {
    background: #212121;
+   background-image: url(../img/section2img.png);
+   background-repeat: no-repeat;
+   background-position: right center;
+   padding: 167px 0px;
 }
 
 .cook-writing {
@@ -110,21 +119,17 @@ section.cook {
 }
 .service-row {
    color: #fff;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 378px;
-   padding-left: 100px;
+   padding: 100px 0px 100px 100px;
 }
 
-section.service {
+.service {
    background: #45493b;
    height: 378px;
 
 }
 
 /* Portfolio */
-section.tradition {
+.tradition {
    background: #212121;
    padding-bottom: 55px;
 }
@@ -157,11 +162,14 @@ section.tradition {
 .portfoliodiv {
    width: 50%;
    float: left;
+   background: #434739;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .portfolio-class {
    width: 50%;
-   float: left;
 }
 
 .portfolio-class img {
@@ -170,14 +178,9 @@ section.tradition {
 
 .portfolio-text {
    background: #44483A;
-   height: 289px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
    color: #fff;
    text-align: center;
 }
-
 .portfolio-text-child h5 {
    color: #afc67b;
    font-size: 29px;
@@ -203,14 +206,14 @@ section.tradition {
 section.simple {
    background: #3e4136;
    color: #fff;
-   height: 400px;
 }
 
 .simple-text {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 400px;
+   padding: 89px 0px;
+}
+
+.simple-text img {
+   padding-top: 10px;
 }
 
 .simple-text h2 {
@@ -307,6 +310,7 @@ section.discover {
    font-size: 16px;
    font-weight: 700;
    height: 33px;
+   color: #fff;
 }
 
 .bookhere input[type="email"] {
@@ -315,6 +319,7 @@ section.discover {
    border: 1.5px solid #fff;
    border-radius: 6px;
    height: 33px;
+   color: #fff;
 }
 
 section.card h2 {
@@ -333,6 +338,7 @@ section.card h2 {
    font-size: 16px;
    font-weight: 700;
    height: 33px;
+   color: #fff;
 }
 
 input {
@@ -345,6 +351,7 @@ input {
    height: 31px;
    border-radius: 7px;
    margin: 10px 0px;
+   border: 1.5px solid #fff;
 }
 
 .bookhere input[type="time"] {
@@ -353,6 +360,7 @@ input {
    border: 1.5px solid #fff;
    height: 31px;
    border-radius: 6px;
+   color: #fff;
 }
 
 .bookhere input[type="tel"] {
@@ -361,6 +369,7 @@ input {
    border: 1.5px solid #fff;
    border-radius: 6px;
    height: 32px;
+   color: #fff;
 }
 
 .bookherefile1 {
@@ -413,6 +422,7 @@ section.card {
 
 .card-txt p {
    font-size: 16px;
+   padding-top: 5px;
 }
 
 .card-txt a {
@@ -474,11 +484,8 @@ section.review-section {
    color: #fff;
 }
 
-section.footer-section {
-   height: 320px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+.footer-section {
+   padding: 45px 0px;
 }
 
 .footer-para {
