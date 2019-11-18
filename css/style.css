@@ -76,7 +76,7 @@ img.sushiparlourpicture {
 }
 
 /* Cook */
-section.cook p {
+.info p {
    color: #fff;
    font-size: 18px;
    line-height: 29px;
@@ -84,13 +84,13 @@ section.cook p {
    width: 500px;
 }
 
-section.cook h3 {
+.info h3 {
    color: #afc67b;
    font-family: 'gooddog', cursive;
    font-size: 29px;
 
 }
-.cook {
+.info {
    background: #212121;
    background-image: url(../img/section2img.png);
    background-repeat: no-repeat;
@@ -98,26 +98,26 @@ section.cook h3 {
    padding: 167px 0px;
 }
 
-.cook-writing {
+.info-content {
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
 /* Service */
-.service-row p {
+.service-list p {
    font-size: 16px;
    font-weight: 300;
    line-height: 24.93px;
    width: 350px;
 }
-.service-row h4 {
+.service-list h4 {
    padding: 10px 0px;
    font-family: 'gooddog', cursive;
    font-size: 25px;
    font-weight: 500;
 }
-.service-row {
+.service-list {
    color: #fff;
    padding: 100px 0px 100px 100px;
 }
@@ -203,33 +203,33 @@ section.cook h3 {
 }
 
 /* Simple */
-section.simple {
+.Author {
    background: #3e4136;
    color: #fff;
 }
 
-.simple-text {
+.Author-content{
    padding: 89px 0px;
 }
 
-.simple-text img {
+.Author-content img {
    padding-top: 10px;
 }
 
-.simple-text h2 {
+.Author-content h2 {
    font-size: 41px;
    color: #afc67b;
    font-family: 'gooddog', cursive;
 }
 
-.simple-text p {
+.Author-content p {
    font-size: 20.85px;
    padding: 20px 0px;
 }
 
 /* discover */
 
-section.discover {
+.discover {
    background-image: url(../img/sectionbig.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -272,36 +272,36 @@ section.discover {
    color: #fff;
 }
 
-.menu-txt h6 {
+.menu-content h6 {
    font-size: 25px;
    font-family: 'gooddog', cursive;
 }
 
-.menu-txt span {
+.menu-content span {
    font-family: 'gooddog', cursive;
    font-size: 20px;
 }
 
-.menu-txt p {
+.menu-content p {
    font-weight: 300;
    font-size: 16px;
 }
 
 /* Book */
 
-.bookhere h2 {
+.contact h2 {
    font-size: 77px;
    font-family: 'gooddog', cursive;
 }
 
-.bookhere {
+.contact {
    background: #212121;
    color: #fff;
    padding: 0px 0px 65px;
    margin-top: 892px;
 }
 
-.bookhere input[type="date"] {
+.contact input[type="date"] {
    width: 238px;
    border: 1.5px solid #fff;
    border-radius: 6px;
@@ -313,7 +313,7 @@ section.discover {
    color: #fff;
 }
 
-.bookhere input[type="email"] {
+.contact input[type="email"] {
    width: 238px;
    background: #262626;
    border: 1.5px solid #fff;
@@ -329,7 +329,7 @@ section.card h2 {
    padding-bottom: 40px;
 }
 
-.bookhere input[type="submit"] {
+.contact input[type="submit"] {
    width: 238px;
    border: 1.5px solid #fff;
    border-radius: 6px;
@@ -345,7 +345,7 @@ input {
    margin: 10px 0px;
 }
 
-.bookhere select {
+.contact select {
    width: 238px;
    background: #212121;
    height: 31px;
@@ -354,7 +354,7 @@ input {
    border: 1.5px solid #fff;
 }
 
-.bookhere input[type="time"] {
+.contact input[type="time"] {
    width: 238px;
    background: #202020;
    border: 1.5px solid #fff;
@@ -363,7 +363,7 @@ input {
    color: #fff;
 }
 
-.bookhere input[type="tel"] {
+.contact input[type="tel"] {
    background: #202020;
    width: 238px;
    border: 1.5px solid #fff;
@@ -372,7 +372,7 @@ input {
    color: #fff;
 }
 
-.bookherefile1 {
+.contact-item1 {
    padding-left: 68px;
 }
 
@@ -387,7 +387,7 @@ section.card {
    color: #ffff;
 }
 
-.card-txt {
+.card-item {
    background: #fff;
    color: #4f4e4e;
    padding-left: 14px;
@@ -410,22 +410,22 @@ section.card {
    display: inherit;
 }
 
-.card-txt h5 {
+.card-item h5 {
    font-size: 14px;
    font-weight: 700;
 }
 
-.card-txt p span {
+.card-item p span {
    font-weight: 700;
    font-size: 16px;
 }
 
-.card-txt p {
+.card-item p {
    font-size: 16px;
    padding-top: 5px;
 }
 
-.card-txt a {
+.card-item a {
    text-transform: uppercase;
    color: #555555;
    font-weight: 700;
@@ -446,14 +446,14 @@ section.review-section {
    padding-bottom: 20px;
 }
 
-.review-txt h4 {
+.review-content h4 {
    color: #aac078;
    font-family: 'gooddog', cursive;
    font-size: 29px;
    padding: 10px 0px;
 }
 
-.review-txt p {
+.review-content p {
    font-size: 18px;
    color: #aac078;
    width: 822px;
@@ -488,7 +488,7 @@ section.review-section {
    padding: 45px 0px;
 }
 
-.footer-para {
+.footer-content {
    width: 330px;
 }
 
