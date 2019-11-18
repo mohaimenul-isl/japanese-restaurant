@@ -18,6 +18,11 @@ body {
 }
 
 /* Nav */
+
+.navbar {
+   padding-left: 131px;
+}
+
 .navbar-nav>li>a {
    color: #afc67b;
    font-size: 35.02px;
